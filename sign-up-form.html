@@ -9,47 +9,67 @@
 </head>
 <body>
   <div class="left-screen">
-    <div class="img-column">
-      <div class="odin-img"></div>
-      <div class="img-credit"></div>
-    </div>
+    <div class="img-plants">
+      <img src="./images/halie-west-25xggax4bSA-unsplash.jpeg" alt="">
+      </div>
+      <div class="img-odin">
+        <img src="./images/odin-lined.png" alt=""> 
+        <p class="norse">ODIN</p>
+      </div>
+      <div class="img-credit">Photo by Halie West on Unsplash</div>
   </div>
   <div class="right-screen">
-    <div class="hook-text"></div>
+    <div class="hook-text">This is not a real online service! You know you need something like this
+      in your life to help you realize your deepest dreams.
+      Sign up <em>now</em> to get started
+      You <em>know</em> you want to
+    </div>
     <div class="sign-up">
       <form action="" method="post">
-        <h3>Let's do this!</h3>
-        <div class="left-form">
-          <div class="first-name">
-          <label for="first-name">FIRST NAME</label>
-          <input type="text" name="first-name" id="first-name">
+        Let's do this!
+        
+          <div class="formrow">
+            
+            <div class="form-element">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" name="first-name" id="first-name">
+            </div>
+            
+            <div class="form-element">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="last-name" id="last-name">
+            </div>
           </div>
-          <div class="email">
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
           </div>
-          <div class="password">
-            <label for="password"></label>
+
+          <div class="formrow">
+            <div class="form-element">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-element">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" name="phone-number" id="phone-number">
+            </div>
+          </div>
+
+          <div class="formrow">
+            <div class="form-element">
+              <label for="password">PASSWORD</label>
+              <input type="pwd" name="password" id="password">
+            </div>
+
+            <div class="form-element"></div>
+            <label for="password">CONFIRM PASSWORD</label>
             <input type="pwd" name="password" id="password">
           </div>
         </div>
-        <div class="right-form">
-          <div class="last-name">
-            <label for="last-name">LAST NAME</label>
-            <input type="text" name="last-name" id="last-name">
-          </div>
-          <div class="phone-number">
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" name="phone-number" id="phone-number">
-          </div>
-          <div class="confirm-password">CONFIRM PASSWORD</div>
-          <label for="password"></label>
-          <input type="pwd" name="password" id="password">
-        </div>
+         
       </form>
     </div>
     <div class="create-account">
-      <button type="submit">Create Account</button>
+      <button type="submit" class="create-account">Create Account</button>
     </div>
     <div class="log-in">
       Already have an account? <button type="submit">Log in</button>
