@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'norsebold';
+  src: url('./font/Norse-Bold.otf')format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.norse{
+  font-family: 'norsebold', sans-serif;
+  color: white;
+  font-size: 90px;
+}
+
+body, html {
+  width: 100%;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.img-plants {
+position: relative;
+top: 0;
+left: 0;
+
+}
+
+.img-odin {
+  position: absolute;
+  top: 40vw;
+  left: 15vw;
+
+}
