@@ -62,3 +62,30 @@ button {
   height: 110px;
 }
 
+.right-screen {
+  position: relative;
+  width: 60%;
+  float: right;
+  background-color: #f7f8fa;
+}
+
+.hook-text {
+    margin-top: 100px;
+    width: 425px;
+    margin-left: 30px;
+}
+
+.hook-text p {
+  margin-top: 15px;
+}
+
+.sign-up {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  padding: 10px 35px 20px;
+  margin-top: 40px;
+}
+
+.sign-up p {
+  margin-top: 15px;
+}
